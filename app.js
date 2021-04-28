@@ -1,5 +1,5 @@
 const express = require('express');
-
+const bodyparser = require('body-parser');
 //Import Routes
 const stockRoute = require('./routes/stock');
 const homeRoute = require('./routes/home');
@@ -13,7 +13,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.listen(port);
-
+app.use(bodyparser.json());
 //Using Routes
 app.use('/stock', stockRoute);
 app.use('/home', homeRoute);
