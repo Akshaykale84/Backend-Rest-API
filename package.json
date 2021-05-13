@@ -8,7 +8,7 @@
     "start": "nodemon app.js"
   },
   "author": "Akshay Kale",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.18.1",
     "body-parser": "^1.19.0",
@@ -16,6 +16,7 @@
     "express": "^4.17.1",
     "indian-stock-exchange": "^1.3.33",
     "loadash": "^1.0.0",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "request": "^2.88.2"
   }
 }

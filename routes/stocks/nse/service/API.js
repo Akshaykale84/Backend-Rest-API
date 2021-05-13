@@ -95,7 +95,7 @@ function getMarketStatus() {
 }
 
 function getIndices() {
-  return axios.get(INDICES_WATCH_URL);
+   return axios.get(INDICES_WATCH_URL);
 }
 
 function getSectorsList() {
